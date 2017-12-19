@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+docker push fefas/swarm-proxy-haproxy
+docker push fefas/swarm-proxy-service-listener
+docker push fefas/swarm-proxy-ssl-provider

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+docker build -t fefas/swarm-proxy-haproxy ./haproxy
+docker build -t fefas/swarm-proxy-service-listener ./service-listener
+docker build -t fefas/swarm-proxy-ssl-provider ./ssl-provider
